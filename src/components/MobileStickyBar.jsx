@@ -2,7 +2,7 @@ import React from 'react';
 import { Phone, MessageCircle, ShoppingBag } from 'lucide-react';
 
 export default function MobileStickyBar({ onOpenContact }) {
-  const phone = '0908689314';
+  const phone = '0908816814';
   const zaloUrl = `https://zalo.me/${phone}`;
 
   return (

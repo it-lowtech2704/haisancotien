@@ -74,15 +74,15 @@ export default function Navbar({ onOpenContact }) {
         {/* Desktop Actions */}
         <div className="hidden md:flex items-center space-x-6">
           <a
-            href="tel:0908689314"
+            href="tel:0908816814"
             className="flex items-center space-x-2 text-xs tracking-wider text-[#EAE4DC]/80 hover:text-[#2DD4BF] transition-colors"
           >
             <Phone className="w-3.5 h-3.5 stroke-[1.5] text-[#2DD4BF]" />
-            <span>0908 689 314</span>
+            <span>0908 816 814</span>
           </a>
 
           <a
-            href="https://zalo.me/0908689314"
+            href="https://zalo.me/0908816814"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-1.5 text-xs tracking-wider text-[#EAE4DC]/70 hover:text-[#2DD4BF] transition-colors"
@@ -102,7 +102,7 @@ export default function Navbar({ onOpenContact }) {
         {/* Mobile Menu button */}
         <div className="flex md:hidden items-center space-x-3">
           <a
-            href="tel:0908689314"
+            href="tel:0908816814"
             className="p-2 text-[#2DD4BF] focus:outline-none"
             aria-label="Gọi điện"
           >
@@ -137,14 +137,14 @@ export default function Navbar({ onOpenContact }) {
 
           <div className="pt-6 border-t border-white/10 flex flex-col space-y-3 pb-8">
             <a
-              href="tel:0908689314"
+              href="tel:0908816814"
               className="flex items-center space-x-3 py-3 px-4 rounded-lg bg-white/5 text-sm text-[#EAE4DC] hover:text-[#2DD4BF] transition-colors"
             >
               <Phone className="w-4 h-4 text-[#2DD4BF]" />
-              <span>Hotline: 0908 689 314</span>
+              <span>Hotline: 0908 816 814</span>
             </a>
             <a
-              href="https://zalo.me/0908689314"
+              href="https://zalo.me/0908816814"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-3 py-3 px-4 rounded-lg bg-[#1E7582]/20 text-sm text-[#2DD4BF] transition-colors"

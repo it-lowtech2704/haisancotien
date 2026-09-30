@@ -4,9 +4,9 @@ import { X, Phone, MessageCircle, ExternalLink, MapPin, Clock, ShieldCheck } fro
 export default function ContactModal({ isOpen, onClose, selectedProduct = null }) {
   if (!isOpen) return null;
 
-  const phone = "0908689314";
+  const phone = "0908816814";
   const zaloUrl = `https://zalo.me/${phone}`;
-  const facebookUrl = "https://facebook.com"; // Replace with actual brand fanpage
+  const facebookUrl = "https://www.facebook.com/tran.tien.52643821";
 
   return (
     <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-6">
@@ -62,7 +62,7 @@ export default function ContactModal({ isOpen, onClose, selectedProduct = null }
                   Gọi điện thoại trực tiếp
                 </span>
                 <span className="font-display text-lg text-white font-medium group-hover:text-[#2DD4BF] transition-colors">
-                  0908 689 314
+                  0908 816 814
                 </span>
               </div>
             </div>
@@ -87,7 +87,7 @@ export default function ContactModal({ isOpen, onClose, selectedProduct = null }
                   Chat tư vấn qua Zalo
                 </span>
                 <span className="text-sm text-white font-medium group-hover:text-[#2DD4BF] transition-colors">
-                  Zalo Cô Tiến (0908 689 314)
+                  Zalo Cô Tiến (0908 816 814)
                 </span>
               </div>
             </div>

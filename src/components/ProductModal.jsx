@@ -4,7 +4,7 @@ import { X, Check, ShieldCheck, MapPin, Anchor, Phone, MessageCircle } from 'luc
 export default function ProductModal({ product, onClose, onContact }) {
   if (!product) return null;
 
-  const phone = "0908689314";
+  const phone = "0908816814";
 
   return (
     <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-6 lg:p-8">
@@ -116,7 +116,7 @@ export default function ProductModal({ product, onClose, onContact }) {
                   className="px-5 py-3.5 border border-white/20 hover:border-[#2DD4BF] hover:text-[#2DD4BF] text-xs uppercase tracking-widest text-[#FAF8F5] transition-colors flex items-center justify-center space-x-2"
                 >
                   <Phone className="w-3.5 h-3.5" />
-                  <span>0908 689 314</span>
+                  <span>0908 816 814</span>
                 </a>
               </div>
             </div>

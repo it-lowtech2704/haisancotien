@@ -139,10 +139,10 @@ export default function CartDrawer({
             </button>
 
             <a
-              href="tel:0908689314"
+              href="tel:0908816814"
               className="mt-3 block text-center text-xs text-[#EAE4DC]/70 hover:text-[#2DD4BF] py-1 transition-colors"
             >
-              Hoặc gọi ngay: <strong className="font-medium">0908 689 314</strong>
+              Hoặc gọi ngay: <strong className="font-medium">0908 816 814</strong>
             </a>
           </div>
         )}

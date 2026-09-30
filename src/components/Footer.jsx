@@ -6,9 +6,9 @@ export default function Footer({ onOpenContact }) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const phone = "0908689314";
+  const phone = "0908816814";
   const zaloUrl = `https://zalo.me/${phone}`;
-  const facebookUrl = "https://facebook.com";
+  const facebookUrl = "https://www.facebook.com/tran.tien.52643821";
 
   return (
     <footer id="lien-he" className="bg-[#050E17] text-[#EAE4DC] border-t border-white/5 pt-14 sm:pt-20 pb-28 sm:pb-16">
@@ -99,7 +99,7 @@ export default function Footer({ onOpenContact }) {
               <div className="flex items-center space-x-3 pt-2">
                 <Phone className="w-4 h-4 text-[#2DD4BF] shrink-0 stroke-[1.5]" />
                 <a href={`tel:${phone}`} className="hover:text-[#2DD4BF] transition-colors text-white font-normal">
-                  Hotline: 0908 689 314
+                  Hotline: 0908 816 814
                 </a>
               </div>
 

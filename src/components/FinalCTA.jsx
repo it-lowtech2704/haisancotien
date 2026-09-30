@@ -1,7 +1,7 @@
 import { MessageCircle } from 'lucide-react';
 
 export default function FinalCTA({ onOpenContact }) {
-  const phone = "0908689314";
+  const phone = "0908816814";
   const zaloUrl = `https://zalo.me/${phone}`;
 
   return (

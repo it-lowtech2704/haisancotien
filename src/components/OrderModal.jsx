@@ -169,13 +169,13 @@ export default function OrderModal({ isOpen, onClose, cartItems = [] }) {
             <div className="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-[#EAE4DC]/60 font-light">
               <span>Hỗ trợ nhanh qua Zalo:</span>
               <a
-                href="https://zalo.me"
+                href="https://zalo.me/0908816814"
                 target="_blank"
                 rel="noreferrer"
                 className="text-[#2DD4BF] hover:underline flex items-center space-x-1"
               >
                 <Phone className="w-3.5 h-3.5" />
-                <span>0908 689 314</span>
+                <span>0908 816 814</span>
               </a>
             </div>
           </div>
