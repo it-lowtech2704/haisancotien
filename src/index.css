@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Lora', Georgia, serif;
+  --font-sans: 'Be Vietnam Pro', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-ocean-dark: #040A10;
+  --color-ocean-deep: #07131D;
+  --color-ocean-navy: #0B1D2C;
+  --color-ocean-slate: #132A3E;
+  --color-ocean-accent: #1E7582;
+  --color-ocean-turquoise: #2DD4BF;
+  --color-sand-warm: #EAE4DC;
+  --color-sand-base: #E2DAD0;
+  --color-sand-light: #F7F4EE;
+  --color-sand-cream: #FAF8F5;
+  --color-charcoal-ink: #14171C;
+  --color-charcoal-muted: #545F6D;
+}
+
+:root {
+  color-scheme: dark light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #07131D;
+  color: #EAE4DC;
+  font-family: 'Be Vietnam Pro', system-ui, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom editorial typography utility classes */
+.font-display {
+  font-family: 'Lora', Georgia, serif;
+  font-feature-settings: "lnum" 1;
+}
+
+.font-body {
+  font-family: 'Be Vietnam Pro', system-ui, sans-serif;
+}
+
+/* Standardized, perfectly aligned price typography (eliminates jumping oldstyle numbers) */
+.font-price {
+  font-family: 'Be Vietnam Pro', system-ui, -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-variant-numeric: lining-nums tabular-nums !important;
+  font-feature-settings: "lnum" 1, "tnum" 1 !important;
+  letter-spacing: -0.015em;
+  font-weight: 500;
+}
+
+/* Subtle editorial scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #07131D;
+}
+::-webkit-scrollbar-thumb {
+  background: #1B3549;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1E7582;
+}
+
+/* Keyframe animations for understated coastal aesthetic */
+@keyframes delicateScroll {
+  0% {
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(8px);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+}
+
+.animate-delicate-scroll {
+  animation: delicateScroll 2.2s ease-in-out infinite;
+}
+
+/* Subtle image scale and transition */
+.editorial-image-container {
+  overflow: hidden;
+}
+
+.editorial-image-container img {
+  transition: transform 0.9s cubic-bezier(0.25, 1, 0.5, 1);
+  will-change: transform;
+}
+
+.editorial-image-container:hover img {
+  transform: scale(1.035);
+}
+
+/* Understated animated link underline */
+.link-editorial-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.link-editorial-underline::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: #2DD4BF;
+  transition: width 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.link-editorial-underline:hover::after {
+  width: 100%;
+}
